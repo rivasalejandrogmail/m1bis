@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi página web</title>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    </head>
+    <body>
+        <header>
+            <nav >
+                <div id="nav">
+                    <div>
+                        <h1 class="title3" id="principal">Alejandro Rivas</h1>
+                        <h2 class="title4">Software Developer</h2>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <h3 class="menu">Home</h3>
+
+                        </div>
+                        <div>
+                            <h3 class="menu">About</h3>
+                            
+                        </div>
+                        <div>
+                            <h3 class="menu">Contact</h2>
+                            
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>  
+            <section class="section">
+                <h2 class="title">Sobre mi</h2>
+                <p>Mi nombres es Alejandro Rivas, soy de Puerto Esperanza, Misiones, Argentina. Tengo 44 años y estoy estudiando a full para ser Fullstack Developer.</p>
+            </section>
+            <section class="section">
+                <h2 class="title">Mis Tecnologías Favoritas</h2>
+                <div id="cards-container">
+                    <div class="cards">
+                        <h4 class="title2">HTML</h4>
+                        <img src="imagenes/html5.png" class="logo" />
+                    </div>
+                    <div class="cards">
+                        <h4 class="title2">CSS</h4>
+                        <img src="imagenes/css.png" class="logo" />
+                    </div>
+                    <div class="cards">
+                        <h4 class="title2">JAVASCRIPT</h4>
+                        <img src="imagenes/javascript.png" class="logo" />
+                    </div>
+                    <div class="cards">
+                        <h4 class="title2">REACT</h4>
+                        <img src="imagenes/react.png" class="logo" />
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="title">Mis actividades Favoritas</h2>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita exercitationem commodi voluptatum excepturi? Facere odio voluptatem eum sint officiis modi, consequatur optio explicabo earum nobis debitis ipsam amet inventore!
+                        </p>
+                    </div>
+
+                    <form id="formu">
+                        <div class="form_div">
+                            <input id="inputName" class="input" type="text" name="título" placeholder="Título"/>
+                        </div>
+
+                        <div class="form_div">
+                            <input id="inputDescription" class="input" type="text" name="descripción" placeholder="Descripción"/>
+                        </div>
+
+                        <div class="form_div">
+                            <input id="inputImg" class="input" type="url" name="url" placeholder="Url de la Imagen"/>
+                        </div>
+
+                        <input id="addButton" type="button" value="Enviar" />
+
+                    </form>
+           
+            </section>
+            <div id="allActivities">
+            </div>
+        </main>        
+        <footer>
+            <section class="section">
+                <p>
+                 Realizada por Alejandro Rivas - Enero 2024
+                </p>  
+            </section>    
+        </footer>
+        <script src="./scripts/index.js"></script>
+    </body>
+</html>
