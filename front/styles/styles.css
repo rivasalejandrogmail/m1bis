@@ -99,6 +99,10 @@ color: #FFA500;
     text-align: center;
 }
 
+.card:hover {
+    background-color: #ffffff; /* Azul oscuro */
+}
+
 .card h2 {
     margin-bottom: 5px;
     font-size: 1.2em; /* Ajustado para tamaño más pequeño */
@@ -123,6 +127,8 @@ color: #FFA500;
     text-decoration: none; /* Quita la subrayado predeterminado del enlace */
     color: #3498db; /* Color del enlace */
 }
+
+
 
 .section {
 margin-top: 0.5rem;
